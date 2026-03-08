@@ -1,0 +1,27 @@
+local opt = vim.opt
+
+opt.relativenumber = true
+opt.number = true
+opt.tabstop = 2
+opt.shiftwidth = 2
+opt.expandtab = true
+opt.autoindent = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.cursorline = true
+opt.termguicolors = true
+opt.background = "dark"
+opt.signcolumn = "yes"
+opt.backspace = "indent,eol,start"
+opt.splitright = true
+opt.splitbelow = true
+opt.clipboard = "unnamedplus"
+opt.updatetime = 300
+opt.scrolloff = 3
+opt.wildignorecase = true
+opt.cmdheight = 0
+opt.showmode = false
+opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
+opt.wrap = false
+opt.undofile = true
+opt.autoread = true
